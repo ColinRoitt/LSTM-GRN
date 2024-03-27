@@ -1,53 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Roitt et al. Enough is Enough</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- import font awsome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+		<title>Roitt et al. Enough is Enough</title>
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				text-align: center;
+			}
 
-    .container {
-      padding: 20px;
-    }
+			.container {
+				padding: 20px;
+			}
 
-    h1 {
-      margin-bottom: 20px;
-    }
+			h1 {
+				margin-bottom: 20px;
+			}
 
-    .link-list {
-      list-style-type: none;
-      padding: 0;
-    }
+			.link-list {
+				list-style-type: none;
+				padding: 0;
+			}
 
-    .link-list li {
-      margin-bottom: 10px;
-    }
+			.link-list li {
+				font-size: 22px;
+				/* give subtle border like button */
+				border: 1px solid #33333355;
+				padding: 5px 10px;
+				width: 160px;
+				margin: 20px auto;
+			}
 
-    .link-list li a {
-      text-decoration: none;
-      color: #333;
-      font-size: 18px;
-    }
+			.link-list li a,
+			.link-list li a:visited {
+				text-decoration: none;
+				color: #333;
+			}
 
-    .link-list li a:hover {
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Enough is Enough: Learning to Stop in Generative Systems</h1>
-    <ul class="link-list">
-      <li><a href="#">Link 1</a></li>
-      <li><a href="#">Link 2</a></li>
-      <li><a href="#">Link 3</a></li>
-    </ul>
-  </div>
-</body>
+			.link-list li a:hover {
+				color: #007bff;
+			}
+
+			.authors {
+				font-weight: normal;
+			}
+
+			.authors i {
+				font-size: 14px;
+				margin-left: 5px;
+				top: -10px;
+				position: relative;
+			}
+
+			.author-contact {
+				font-style: italic;
+				font-family: monospace;
+				font-size: 14px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Enough is Enough: Learning to Stop in Generative Systems</h1>
+			<h2 class="authors">
+				Colin Roitt<i class="far fa-envelope"></i>, Simon Hickinbotham, and Andy
+				M. Tyrrell
+			</h2>
+			<p>School of PET, University of York, York, UK</p>
+			<p class="author-contact">
+				{colin.roitt,simon.hickinbotham,andy.tyrrell} @york.ac.uk
+			</p>
+			<br />
+			<ul class="link-list">
+				<li>
+					<a
+						href="/docs/Enough is Enough Learning to Stop in Generative Systems. Roitt et al..pdf"
+						target="_blank"
+					>
+						<i class="far fa-file-alt"></i> Paper
+					</a>
+				</li>
+				<li>
+					<a
+						href="/docs/Enough is Enough Poster Roitt et al..pdf"
+						target="_blank"
+						><i class="far fa-file-image"></i> Poster</a
+					>
+				</li>
+				<li>
+					<a href="https://github.com/ColinRoitt/LSTM-GRN" target="_blank"
+						><i class="far fa-file-code"></i> Source Code</a
+					>
+				</li>
+			</ul>
+		</div>
+	</body>
 </html>
